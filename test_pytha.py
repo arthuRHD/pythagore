@@ -1,5 +1,5 @@
 import unittest
-from pytha import pythagore
+from .pytha import pythagore
 
 class TestPythagore(unittest.TestCase):
     """classe de test"""
