@@ -11,4 +11,4 @@ class TestPythagore(unittest.TestCase):
     def test_type(self):
         self.assertRaises(AssertionError, pythagore, "hyp", 4, 3)
         self.assertRaises(AssertionError, pythagore, 2, 1, 0)
-        self.assertRaises(AssertionError, pythagore, -2, 1, 0)
+        self.assertRaises(AssertionError, pythagore, -2, 1, 1)
